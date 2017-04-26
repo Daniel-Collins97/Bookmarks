@@ -1,0 +1,51 @@
+{{> menu id="saved"}}
+<br>
+<br>
+<br>
+<br>
+
+<section class="ui segment">
+    <h1 class="ui middle aligned header">
+        Welcome {{user.firstName}} {{user.lastName}}
+    </h1>
+
+    <section class="ui raised segment">
+        <h3 class="ui header">
+            Your Collections:
+        </h3>
+        <br>
+        <br>
+        <div class="ui cards">
+            {{#each album.photo}}
+                <a href ="/bookmark/:id">
+                    {{> card }}
+                </a>
+            {{/each}}
+        </div>
+        <br>
+        <br>
+    </section>
+
+    <div class="ui segment">
+        <a href="../saved/deleteAllPictures"> <button class="negative ui button">Delete All</button></a>
+    </div>
+
+    <section class="ui raised segment">
+        <div class="ui small dividing header"> New Collection </div>
+        <section class="ui raised form segment">
+            <form action="../saved/uploadpicture" method="POST" enctype="multipart/form-data">
+                <div class="two fields">
+                    <div class="field">
+                        <label>Collection Image</label>
+                        <input type="file" name="picture"></input>
+                    </div>
+                    <div class="field">
+                        <label>Collection Title</label>
+                        <input placeholder="Title" type="text" name="title">
+                    </div>
+                </div>
+                <button class="ui mini blue submit button"> Upload </button>
+            </form>
+        </section>
+    </section>
+</section>

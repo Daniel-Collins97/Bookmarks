@@ -1,0 +1,63 @@
+{{> menu}}
+<br>
+<br>
+<br>
+<br>
+
+<section class="content">
+    <section class="ui center aligned middle aligned compact stackable segment">
+        <h1 class="ui stackable header">
+            Welcome, {{user.firstName}}, to the Stats page!
+        </h1>
+        <p>
+            Here, you can see all the statistics for you and some for the other users.
+        </p>
+        <br>
+        <section class="yourStats">
+            <section class="ui center aligned middle aligned compact stackable piled segment">
+                <h1>
+                    Your Stats;
+                </h1>
+            </section>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section class="total">
+            <section class="ui center aligned middle aligned compact stackable piled segment">
+                <h3>
+                    Total number of Albums for {{user.firstName}}:
+                </h3>
+            </section>
+        </section>
+        <br>
+        <section class="bookmarkCounter">
+            <section class="ui inverted blue huge circular stackable segment">
+                <p>
+                    {{pictures.length}}
+                </p>
+            </section>
+        </section>
+        <br>
+        <section class="total">
+            <section class="ui center aligned middle aligned compact stackable piled segment">
+                <h3>
+                    Total number of Links being managed so far:
+                </h3>
+            </section>
+        </section>
+        <br>
+        <section class="bookmarkCounter">
+            <section class="ui inverted blue huge circular stackable segment">
+                <p>
+                    {{total}}
+                </p>
+            </section>
+        </section>
+        <br>
+        <br>
+        <p>
+            <img class="ui fluid stackable image" src="https://cdn.gomix.com/b3a3d0a8-315b-4918-af4c-265cdd5f1909%2Fbookmark.jpg" width="200" height="200">
+        </p>
+    </section>
+</section>

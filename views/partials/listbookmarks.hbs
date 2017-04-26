@@ -1,0 +1,26 @@
+
+
+<table class="ui stackable table">
+    <thead>
+        Your Saved Bookmarks
+    </thead>
+    <tbody>
+    {{#each bookmark.links}}
+        <tr>
+            <td>
+                <a href="{{link}}" target=_blank>{{title}}</a>
+            </td>
+            <td>
+                <a href="{{link}}" target=_blank class="ui stackable icon button"><i class="large linkify icon"></i></a>
+            </td>
+            <td>
+                {{summary}}
+            </td>
+            <td>
+                <a href="/bookmark/{{../bookmark.id}}/deletelink/{{id}}" class="ui stackable icon button"><i class="icon trash"></i>
+                </a>
+            </td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

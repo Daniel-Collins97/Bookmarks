@@ -1,0 +1,36 @@
+{
+  "bookmarkCollection": [
+    {
+      "id": "0bb34084-6a82-4a5d-9d23-193dad2e38bb",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "hello",
+      "links": [
+        {
+          "id": "e1b5d3a4-5b26-4ae6-bfba-e1a89cbcfbe1",
+          "title": "there",
+          "link": "my",
+          "summary": "son"
+        }
+      ]
+    },
+    {
+      "id": "63bc6ec9-a074-4db8-a22b-3bf6923208db",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "title": "dgfhdgbvd",
+      "links": [
+        {
+          "id": "cb24e987-2aa6-40f8-92dc-b14c3c64d336",
+          "title": "sfvdxvsc",
+          "link": "rsgdv",
+          "summary": "grs"
+        },
+        {
+          "id": "c0d50ad6-b3e0-4611-98e9-52f278520bf1",
+          "title": "bfx",
+          "link": "vdzv",
+          "summary": "vdxz"
+        }
+      ]
+    }
+  ]
+}

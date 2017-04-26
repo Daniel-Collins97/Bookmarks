@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Collins",
+      "email": "danieljcollins17@gmail.com",
+      "password": "hello",
+      "id": "0a3d73f8-7369-4eef-bea2-b1eeeaa5d530"
+    },
+    {
+      "firstName": "Da",
+      "lastName": "",
+      "email": "",
+      "password": "",
+      "id": "1e7c8ea7-6b99-4378-b982-2205b0c703ce"
+    },
+    {
+      "firstName": "frank",
+      "lastName": "test",
+      "email": "franktest@frankful.com",
+      "password": "frank",
+      "id": "88e9cf01-5cb4-4a84-aa00-adf45b1b459b"
+    },
+    {
+      "firstName": "gerry",
+      "lastName": "honest",
+      "email": "ghonest@gmail.com",
+      "password": "ghonest",
+      "id": "c02b4e50-e175-402c-b080-c14d6f07c7cd"
+    },
+    {
+      "firstName": "tom",
+      "lastName": "hardy",
+      "email": "thardy@thug.com",
+      "password": "thardy",
+      "id": "0cdcc26b-72df-4734-88bf-7a89c174f6b3"
+    },
+    {
+      "firstName": "mick",
+      "lastName": "daly",
+      "email": "mdaly@outlook.com",
+      "password": "mdaly",
+      "id": "af868eb5-e845-4bd0-be3d-b283d1249463"
+    }
+  ]
+}

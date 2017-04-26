@@ -1,0 +1,38 @@
+body
+{
+  background-image: url("https://cdn.gomix.com/b3a3d0a8-315b-4918-af4c-265cdd5f1909%2Fgiphy.gif");
+  background-size: cover;
+  background-attachment: fixed;
+  -moz-background-size: cover; /* Firefox*/
+  background-position: center; /* internet explorer */
+}
+
+.bookmarkCounter, .content, .total, .yourStats
+{
+  display: table;
+  margin: 0 auto;
+}
+
+.confo
+{
+  display: table;
+  margin: 0 auto;
+}
+
+.ffs
+{
+  position: fixed;
+  opacity: 0.3;
+  z-index: 5;
+}
+
+.ffs:hover
+{
+  opacity: 1;
+}
+
+.content
+{
+  position: relative;
+  z-index: 1;
+}
